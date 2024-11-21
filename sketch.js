@@ -50,10 +50,10 @@ function draw() {
 }
 
 //prevent scrolling past intro intiially
-// document.body.style.overflow = 'hidden';
-// setTimeout(() => {
-//   document.body.style.overflow = 'auto'; 
-// }, delayScroll);
+document.body.style.overflow = 'hidden';
+setTimeout(() => {
+  document.body.style.overflow = 'auto'; 
+}, delayScroll);
 
 
 function startDoc() {
